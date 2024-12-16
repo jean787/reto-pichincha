@@ -58,7 +58,7 @@ El proyecto se encuentra separado por dos tipos de APIs UX y Negocio.
 
 4. Acceder a la aplicación:
     - OpenAPI / Swagger: [http://localhost:8081/v3/api-docs](http://localhost:8081/v3/api-docs)
-    - Reporte cobertura: ***target/site/jacoco/index.html
+    - Reporte cobertura: ***target/site/jacoco/index.html***
 
 ---
 
