@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: customer
+
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+  sql:
+    init:
+      mode: always
+      platform: h2
+
+rest:
+  endpoints:
+    gorest: https://gorest.co.in/public/v2
+
+
+logging:
+  level:
+    org.springframework: INFO

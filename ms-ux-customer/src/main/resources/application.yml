@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: customer-ux-api
+springdoc:
+    api-docs:
+      path: /v3/api-docs
+      enabled: true
+
+rest:
+  endpoints:
+    customer: http://localhost:8080
+
+logging:
+  level:
+    org.springframework: INFO

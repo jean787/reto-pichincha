@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "test",
+  "address": "test",
+  "phone": "999999999",
+  "email": "test@gmail.com",
+  "gender": "male",
+  "status": "active"
+}
