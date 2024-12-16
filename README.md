@@ -76,7 +76,7 @@ El proyecto se encuentra separado por dos tipos de APIs UX y Negocio.
     - Interfaz para el acceso a datos reactivos con R2DBC.
 
 - **`mapper`**:
-    - Utilitarios pra la transformación de los objectos con mapstruct.
+    - Utilitarios para la transformación de los objectos con mapstruct.
 
 - **`proxy`**:
     - Configuracion para consumo de servicios externos (WebClient).
